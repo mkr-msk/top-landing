@@ -15,8 +15,6 @@ body {
     font-family: 'Roboto';
     max-width: 1400px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -51,3 +49,4 @@ nav {
 .links a {
     color: #e5e7eb;
 }
+
