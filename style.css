@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     max-width: 1400px;
     margin: 0 auto;
@@ -25,7 +25,8 @@ header {
 
 nav,
 .header-main,
-.random-inf-cards {
+.random-inf-cards,
+.quote-wrapper {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -138,4 +139,31 @@ nav {
     border-radius: 16px;
     min-height: 170px;
     min-width: 170px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 110px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #6b6d73;
+}
+
+.quote-author {
+    font-size: 26px;
+    font-weight: bold;
+    color: #414a65;
+    align-self: flex-end;
 }
