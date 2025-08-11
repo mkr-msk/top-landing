@@ -26,7 +26,8 @@ header {
 nav,
 .header-main,
 .random-inf-cards,
-.quote-wrapper {
+.quote-wrapper,
+.call-to-action-box {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -166,4 +167,36 @@ nav {
     font-weight: bold;
     color: #414a65;
     align-self: flex-end;
+}
+
+.call-to-action {
+    min-height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    padding: 48px 0;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.call-to-action-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call-to-action-text p {
+    color: #F9FAF8;
+}
+
+.call-to-action-box .sign-up {
+    border-color: white;
+    border-style: solid;
+    align-self: baseline;
 }
